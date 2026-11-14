@@ -1,0 +1,6 @@
+{
+  "dart.runPubGetOnPubspecChanges": "never",
+  "dart.checkForSdkUpdates": false,
+  "dart.flutterCreateOffline": true,
+  "files.encoding": "utf8"
+}
