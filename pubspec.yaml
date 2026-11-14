@@ -1,0 +1,24 @@
+name: triple_tile_match
+description: "تحدي البلاطات الثلاثية — Triple Tile Explorer (Mobile APK & 3-Ad Monetization Edition)"
+publish_to: 'none'
+version: 1.2.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # ملاحظة: عند ربط شفرات Google AdMob الحقيقية والإنترنت متصل، أزل علامة # من السطر التالي:
+  # google_mobile_ads: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
